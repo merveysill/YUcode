@@ -1,0 +1,11 @@
+CREATE TABLE [dbo].[myTB] (
+    [Id]     INT           IDENTITY (1, 1) NOT NULL,
+    [ADI]    NVARCHAR (50) NOT NULL,
+    [SOYADI] NVARCHAR (50) NOT NULL,
+    [EMAIL]  NVARCHAR (50) NOT NULL,
+    [DT]    DATE          NULL,
+    [YASI]  NVARCHAR (50) NULL,
+    [DIZI] NVARCHAR (50) NOT NULL,
+    [SIFRE]  NCHAR (10)    NOT NULL,
+    PRIMARY KEY CLUSTERED ([Id] ASC)
+);
